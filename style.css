@@ -1,0 +1,84 @@
+/* General styles */
+body {
+	font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1400px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/* Header styles */
+header {
+	text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+	overflow: hidden;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+.about {
+	width: 600px;
+	height: auto;
+	background: #e74c3c;
+	overflow: hidden;
+	float: left;
+}
+
+.profilePic {
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
