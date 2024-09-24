@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
 }
+table, th, td {
+		  border:1px solid black;
+		}
 .container {
     max-width: 1400px; /* Adjust the maximum width as needed */
     margin: 0 auto;
@@ -52,7 +55,7 @@ section h2 {
     margin-top: 0;
 }
 
-.about {
+.home {
 	width: 600px;
 	height: auto;
 	background: #e74c3c;
@@ -60,14 +63,23 @@ section h2 {
 	float: left;
 }
 
+.about {
+	width: 700px;
+	height: auto;
+	background: #FFDDEE;
+	overflow: hidden;
+	float: left;
+}
+
 .profilePic {
+	margin-left:800px;
 	width: 600px;
-	height: 400px;
+	height: 350px;
 	overflow: hidden;
 }
 
 section ul {
-    list-style: none;
+    list-style-type:circle;
     padding: 0;
 }
 
